@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  padding-top: 190px;
+  padding-top: 60px;
 }
 
 section {
@@ -183,5 +183,32 @@ input {
     &:last-child {
       border-bottom: 1px solid $grayMediumLight;
     }
+  }
+}
+/* microposts */
+
+.microposts {
+  list-style: none;
+  margin: 10px 0 0 0;
+
+  li {
+    padding: 10px 0;
+    border-top: 1px solid #e8e8e8;
+  }
+}
+.content {
+  display: block;
+}
+.timestamp {
+  color: #A59E9E;
+}
+.gravatar {
+  float: left;
+  margin-right: 10px;
+}
+aside {
+  textarea {
+    height: 100px;
+    margin-bottom: 5px;
   }
 }

@@ -23,6 +23,7 @@ gem 'bcrypt-ruby', '3.1.2'
 gem 'faker'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
+gem 'rspec-its'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
